@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Instagram, Music2, CalendarDays, ArrowRight, Play, Mail, MapPin } from 'lucide-react'
+import FloatingCTA from "@/components/floating-cta"
 
 const works = [
   '/gallery/01.png',
@@ -193,6 +194,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <FloatingCTA />
     </main>
   )
 }

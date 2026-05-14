@@ -38,7 +38,7 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center justify-center px-6 pt-32 text-center">
         <div className="absolute inset-0 opacity-20">
           <video autoPlay muted loop playsInline className="h-full w-full object-cover">
-            <source src="/gallery/Adobe Express - TAPEDESIGN KURZVIDEO.mp4" type="video/mp4" />
+            <source src="/videos/video.1.mp4" type="video/mp4" />
           </video>
         </div>
 

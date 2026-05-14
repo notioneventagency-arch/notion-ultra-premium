@@ -113,7 +113,7 @@ export function Footer() {
               {footerLinks.social.map((link) => (
                 <li key={link.name}>
                   <a
-                    href={link.href}
+                    href={"https://www.instagram.com/notion_eventagency"/.href}
                     className="inline-flex items-center gap-1 text-sm transition-colors hover:text-foreground"
                   >
                     {link.name}

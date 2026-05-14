@@ -82,7 +82,10 @@ export function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form
+ action="https://formspree.io/f/xgodzrzv"
+ method="POST"
+>
               <div className="grid gap-6 sm:grid-cols-2">
                 <div>
                   <label
